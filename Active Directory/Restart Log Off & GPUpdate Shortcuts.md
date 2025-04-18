@@ -7,9 +7,11 @@ This document provides an overview of creating and adding shortcuts for common a
 ## Create Shortcuts Via GPO
 
 1. Create a new GPO and link to ou
+   
    ![GPO Menu Path](/.images/GPO_ShortcutPath.png)
 
 2. Right-click > New shortcut
+   
  ![GPO Menu Path](/.images/GPO_Shortcut_values.png)
 
 
