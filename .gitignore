@@ -1,0 +1,4 @@
+
+# macOS system files
+*.swp
+*.DS_Store
