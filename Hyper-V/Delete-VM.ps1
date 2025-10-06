@@ -1,5 +1,7 @@
+Enter-PSSession <ServerName>
+
 $VMName = "VMName"  
-$RootStoragePath = "D:\Hyper-V\Virtual Machines"
+$RootStoragePath = "D:\HyperV"
 $VM = Get-VM -Name $VMName
 $Vhd = $VM | Select-Object -ExpandProperty HardDrives | Select-Object Path
 
