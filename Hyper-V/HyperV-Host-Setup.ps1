@@ -1,7 +1,7 @@
 
 $vSwitchName = 'vSwitch'
 $vSwitchEthName = 'Ethernet 2'
-$rootPath= "D:\Temp\HyperV"
+$rootPath= "D:\HyperV"
 $Folders = @("DefaultVM", "DefaultVHD")
 
 Install-WindowsFeature -Name Hyper-V -IncludeManagementTools -Restart
