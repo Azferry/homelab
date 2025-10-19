@@ -108,3 +108,9 @@ Once the docker container gets running, you can change the dns server of your ho
 ```bash
 nameserver 127.0.0.1
 ```
+
+## Test Connectivity to Hub
+
+```bash
+curl https://registry-1.docker.io/v2/ && echo Works
+```
